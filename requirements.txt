@@ -1,0 +1,57 @@
+# Customer Churn Prediction + Business Dashboard
+
+This project predicts whether a telecom customer is likely to leave the company.  
+It combines machine learning with a simple business dashboard.
+
+## Objective
+
+The goal is to identify customers at risk of churn and help the business take retention actions.
+
+## Dataset
+
+Telco Customer Churn dataset from Kaggle.
+
+## Steps Performed
+
+- Data cleaning
+- Exploratory Data Analysis
+- Feature engineering
+- One-hot encoding
+- Model training
+- Model evaluation
+- Dashboard creation using Streamlit and Plotly
+
+## Models Used
+
+- Logistic Regression
+- Random Forest
+- XGBoost
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+
+## Dashboard Features
+
+- Churn distribution
+- Customer tenure analysis
+- Monthly charges analysis
+- Model comparison
+- Individual churn prediction
+
+## How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Train the model:
+
+python model_training.py
+
+Run dashboard:
+
+streamlit run app.py
